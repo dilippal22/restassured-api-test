@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="API Automation Test suite" parallel="tests"
+	thread-count="2" verbose="3">
+
+	<test name="API Automation Test Case" parallel="methods"
+		preserve-order="true">
+		<classes>
+			<class name="com.dgsl.restapi.tests.GetAPITest"></class>
+			<class name="com.dgsl.restapi.tests.PostAPITest"></class>
+		</classes>
+	</test>
+
+</suite>

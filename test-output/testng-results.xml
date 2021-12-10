@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="API Automation Test suite" duration-ms="2383" started-at="2020-10-03T17:33:11 IST" finished-at="2020-10-03T17:33:13 IST">
+    <groups>
+    </groups>
+    <test name="API Automation Test Case" duration-ms="2383" started-at="2020-10-03T17:33:11 IST" finished-at="2020-10-03T17:33:13 IST">
+      <class name="com.dgsl.restapi.tests.PostAPITest">
+        <test-method status="PASS" signature="setExtent()[pri:0, instance:com.dgsl.restapi.tests.PostAPITest@2a798d51]" name="setExtent" is-config="true" duration-ms="3" started-at="2020-10-03T17:33:11 IST" finished-at="2020-10-03T17:33:11 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setExtent -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.dgsl.restapi.tests.PostAPITest@2a798d51]" name="setUp" is-config="true" duration-ms="2" started-at="2020-10-03T17:33:11 IST" finished-at="2020-10-03T17:33:11 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="postAPITestWithHeader()[pri:0, instance:com.dgsl.restapi.tests.PostAPITest@2a798d51]" name="postAPITestWithHeader" duration-ms="1093" started-at="2020-10-03T17:33:11 IST" finished-at="2020-10-03T17:33:12 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postAPITestWithHeader -->
+        <test-method status="PASS" signature="setTestResult(org.testng.ITestResult)[pri:0, instance:com.dgsl.restapi.tests.PostAPITest@2a798d51]" name="setTestResult" is-config="true" duration-ms="1" started-at="2020-10-03T17:33:12 IST" finished-at="2020-10-03T17:33:12 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=postAPITestWithHeader status=SUCCESS method=PostAPITest.postAPITestWithHeader()[pri:0, instance:com.dgsl.restapi.tests.PostAPITest@2a798d51] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setTestResult -->
+        <test-method status="PASS" signature="endExtent()[pri:0, instance:com.dgsl.restapi.tests.PostAPITest@2a798d51]" name="endExtent" is-config="true" duration-ms="196" started-at="2020-10-03T17:33:13 IST" finished-at="2020-10-03T17:33:13 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endExtent -->
+      </class> <!-- com.dgsl.restapi.tests.PostAPITest -->
+      <class name="com.dgsl.restapi.tests.GetAPITest">
+        <test-method status="PASS" signature="setExtent()[pri:0, instance:com.dgsl.restapi.tests.GetAPITest@6b81ce95]" name="setExtent" is-config="true" duration-ms="125" started-at="2020-10-03T17:33:11 IST" finished-at="2020-10-03T17:33:11 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setExtent -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.dgsl.restapi.tests.GetAPITest@6b81ce95]" name="setUp" is-config="true" duration-ms="2" started-at="2020-10-03T17:33:11 IST" finished-at="2020-10-03T17:33:11 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="getAPITestWithoutHeaders()[pri:1, instance:com.dgsl.restapi.tests.GetAPITest@6b81ce95]" name="getAPITestWithoutHeaders" duration-ms="978" started-at="2020-10-03T17:33:11 IST" finished-at="2020-10-03T17:33:12 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAPITestWithoutHeaders -->
+        <test-method status="PASS" signature="setTestResult(org.testng.ITestResult)[pri:0, instance:com.dgsl.restapi.tests.GetAPITest@6b81ce95]" name="setTestResult" is-config="true" duration-ms="6" started-at="2020-10-03T17:33:12 IST" finished-at="2020-10-03T17:33:12 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=getAPITestWithoutHeaders status=SUCCESS method=GetAPITest.getAPITestWithoutHeaders()[pri:1, instance:com.dgsl.restapi.tests.GetAPITest@6b81ce95] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setTestResult -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.dgsl.restapi.tests.GetAPITest@6b81ce95]" name="setUp" is-config="true" duration-ms="1" started-at="2020-10-03T17:33:12 IST" finished-at="2020-10-03T17:33:12 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="getAPITestWithHeaders()[pri:2, instance:com.dgsl.restapi.tests.GetAPITest@6b81ce95]" name="getAPITestWithHeaders" duration-ms="715" started-at="2020-10-03T17:33:12 IST" finished-at="2020-10-03T17:33:12 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAPITestWithHeaders -->
+        <test-method status="PASS" signature="setTestResult(org.testng.ITestResult)[pri:0, instance:com.dgsl.restapi.tests.GetAPITest@6b81ce95]" name="setTestResult" is-config="true" duration-ms="1" started-at="2020-10-03T17:33:12 IST" finished-at="2020-10-03T17:33:12 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=getAPITestWithHeaders status=SUCCESS method=GetAPITest.getAPITestWithHeaders()[pri:2, instance:com.dgsl.restapi.tests.GetAPITest@6b81ce95] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setTestResult -->
+        <test-method status="PASS" signature="endExtent()[pri:0, instance:com.dgsl.restapi.tests.GetAPITest@6b81ce95]" name="endExtent" is-config="true" duration-ms="319" started-at="2020-10-03T17:33:12 IST" finished-at="2020-10-03T17:33:13 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endExtent -->
+      </class> <!-- com.dgsl.restapi.tests.GetAPITest -->
+    </test> <!-- API Automation Test Case -->
+  </suite> <!-- API Automation Test suite -->
+</testng-results>

@@ -1,0 +1,305 @@
+2020-10-03 17:33:11,453 DEBUG [TestNG-test=API Automation Test Case-2] RequestAddCookies:123 - CookieSpec selected: default
+2020-10-03 17:33:11,472 DEBUG [TestNG-test=API Automation Test Case-2] RequestAuthCache:77 - Auth cache not set in the context
+2020-10-03 17:33:11,473 DEBUG [TestNG-test=API Automation Test Case-2] PoolingHttpClientConnectionManager:267 - Connection request: [route: {s}->https://reqres.in:443][total available: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+2020-10-03 17:33:11,534 DEBUG [TestNG-test=API Automation Test Case-2] PoolingHttpClientConnectionManager:312 - Connection leased: [id: 0][route: {s}->https://reqres.in:443][total available: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+2020-10-03 17:33:11,537 DEBUG [TestNG-test=API Automation Test Case-2] MainClientExec:234 - Opening connection {s}->https://reqres.in:443
+2020-10-03 17:33:11,541 DEBUG [TestNG-test=API Automation Test Case-2] DefaultHttpClientConnectionOperator:139 - Connecting to reqres.in/172.67.222.36:443
+2020-10-03 17:33:11,541 DEBUG [TestNG-test=API Automation Test Case-2] SSLConnectionSocketFactory:366 - Connecting socket to reqres.in/172.67.222.36:443 with timeout 0
+2020-10-03 17:33:11,623  INFO [TestNG-test=API Automation Test Case-1] PostAPITest:74 - Request String is: {"name":"Morphes","job":"Leader","id":null,"createdAt":null}
+2020-10-03 17:33:11,628 DEBUG [TestNG-test=API Automation Test Case-1] RequestAddCookies:123 - CookieSpec selected: default
+2020-10-03 17:33:11,629 DEBUG [TestNG-test=API Automation Test Case-1] RequestAuthCache:77 - Auth cache not set in the context
+2020-10-03 17:33:11,630 DEBUG [TestNG-test=API Automation Test Case-1] PoolingHttpClientConnectionManager:267 - Connection request: [route: {s}->https://reqres.in:443][total available: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+2020-10-03 17:33:11,630 DEBUG [TestNG-test=API Automation Test Case-1] PoolingHttpClientConnectionManager:312 - Connection leased: [id: 1][route: {s}->https://reqres.in:443][total available: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+2020-10-03 17:33:11,630 DEBUG [TestNG-test=API Automation Test Case-1] MainClientExec:234 - Opening connection {s}->https://reqres.in:443
+2020-10-03 17:33:11,631 DEBUG [TestNG-test=API Automation Test Case-1] DefaultHttpClientConnectionOperator:139 - Connecting to reqres.in/172.67.222.36:443
+2020-10-03 17:33:11,631 DEBUG [TestNG-test=API Automation Test Case-1] SSLConnectionSocketFactory:366 - Connecting socket to reqres.in/172.67.222.36:443 with timeout 0
+2020-10-03 17:33:11,688 DEBUG [TestNG-test=API Automation Test Case-2] SSLConnectionSocketFactory:430 - Enabled protocols: [TLSv1.2, TLSv1.1, TLSv1]
+2020-10-03 17:33:11,691 DEBUG [TestNG-test=API Automation Test Case-2] SSLConnectionSocketFactory:431 - Enabled cipher suites:[TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDH_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDH_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_DSS_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_DSS_WITH_AES_128_GCM_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384, TLS_RSA_WITH_AES_256_CBC_SHA256, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA384, TLS_DHE_RSA_WITH_AES_256_CBC_SHA256, TLS_DHE_DSS_WITH_AES_256_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_DSS_WITH_AES_256_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_DSS_WITH_AES_128_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_DSS_WITH_AES_128_CBC_SHA, TLS_EMPTY_RENEGOTIATION_INFO_SCSV]
+2020-10-03 17:33:11,692 DEBUG [TestNG-test=API Automation Test Case-2] SSLConnectionSocketFactory:435 - Starting handshake
+2020-10-03 17:33:11,782 DEBUG [TestNG-test=API Automation Test Case-1] SSLConnectionSocketFactory:430 - Enabled protocols: [TLSv1.2, TLSv1.1, TLSv1]
+2020-10-03 17:33:11,783 DEBUG [TestNG-test=API Automation Test Case-1] SSLConnectionSocketFactory:431 - Enabled cipher suites:[TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDH_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDH_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_DSS_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_DSS_WITH_AES_128_GCM_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384, TLS_RSA_WITH_AES_256_CBC_SHA256, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA384, TLS_DHE_RSA_WITH_AES_256_CBC_SHA256, TLS_DHE_DSS_WITH_AES_256_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_DSS_WITH_AES_256_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_DSS_WITH_AES_128_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_DSS_WITH_AES_128_CBC_SHA, TLS_EMPTY_RENEGOTIATION_INFO_SCSV]
+2020-10-03 17:33:11,784 DEBUG [TestNG-test=API Automation Test Case-1] SSLConnectionSocketFactory:435 - Starting handshake
+2020-10-03 17:33:12,017 DEBUG [TestNG-test=API Automation Test Case-2] SSLConnectionSocketFactory:465 - Secure session established
+2020-10-03 17:33:12,017 DEBUG [TestNG-test=API Automation Test Case-2] SSLConnectionSocketFactory:466 -  negotiated protocol: TLSv1.2
+2020-10-03 17:33:12,017 DEBUG [TestNG-test=API Automation Test Case-2] SSLConnectionSocketFactory:467 -  negotiated cipher suite: TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256
+2020-10-03 17:33:12,018 DEBUG [TestNG-test=API Automation Test Case-2] SSLConnectionSocketFactory:475 -  peer principal: CN=sni.cloudflaressl.com, O="Cloudflare, Inc.", L=San Francisco, ST=CA, C=US
+2020-10-03 17:33:12,018 DEBUG [TestNG-test=API Automation Test Case-2] SSLConnectionSocketFactory:484 -  peer alternative names: [reqres.in, sni.cloudflaressl.com, *.reqres.in]
+2020-10-03 17:33:12,018 DEBUG [TestNG-test=API Automation Test Case-2] SSLConnectionSocketFactory:488 -  issuer principal: CN=Cloudflare Inc ECC CA-3, O="Cloudflare, Inc.", C=US
+2020-10-03 17:33:12,027 DEBUG [TestNG-test=API Automation Test Case-2] DefaultHttpClientConnectionOperator:146 - Connection established 192.168.1.203:58735<->172.67.222.36:443
+2020-10-03 17:33:12,027 DEBUG [TestNG-test=API Automation Test Case-2] MainClientExec:255 - Executing request GET /api/users HTTP/1.1
+2020-10-03 17:33:12,027 DEBUG [TestNG-test=API Automation Test Case-2] MainClientExec:260 - Target auth state: UNCHALLENGED
+2020-10-03 17:33:12,028 DEBUG [TestNG-test=API Automation Test Case-2] MainClientExec:266 - Proxy auth state: UNCHALLENGED
+2020-10-03 17:33:12,029 DEBUG [TestNG-test=API Automation Test Case-2] headers:133 - http-outgoing-0 >> GET /api/users HTTP/1.1
+2020-10-03 17:33:12,030 DEBUG [TestNG-test=API Automation Test Case-2] headers:136 - http-outgoing-0 >> Host: reqres.in
+2020-10-03 17:33:12,031 DEBUG [TestNG-test=API Automation Test Case-2] headers:136 - http-outgoing-0 >> Connection: Keep-Alive
+2020-10-03 17:33:12,031 DEBUG [TestNG-test=API Automation Test Case-2] headers:136 - http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_261)
+2020-10-03 17:33:12,031 DEBUG [TestNG-test=API Automation Test Case-2] headers:136 - http-outgoing-0 >> Accept-Encoding: gzip,deflate
+2020-10-03 17:33:12,031 DEBUG [TestNG-test=API Automation Test Case-2] wire:73 - http-outgoing-0 >> "GET /api/users HTTP/1.1[\r][\n]"
+2020-10-03 17:33:12,032 DEBUG [TestNG-test=API Automation Test Case-2] wire:73 - http-outgoing-0 >> "Host: reqres.in[\r][\n]"
+2020-10-03 17:33:12,032 DEBUG [TestNG-test=API Automation Test Case-2] wire:73 - http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+2020-10-03 17:33:12,032 DEBUG [TestNG-test=API Automation Test Case-2] wire:73 - http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_261)[\r][\n]"
+2020-10-03 17:33:12,032 DEBUG [TestNG-test=API Automation Test Case-2] wire:73 - http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2020-10-03 17:33:12,032 DEBUG [TestNG-test=API Automation Test Case-2] wire:73 - http-outgoing-0 >> "[\r][\n]"
+2020-10-03 17:33:12,103 DEBUG [TestNG-test=API Automation Test Case-1] SSLConnectionSocketFactory:465 - Secure session established
+2020-10-03 17:33:12,103 DEBUG [TestNG-test=API Automation Test Case-1] SSLConnectionSocketFactory:466 -  negotiated protocol: TLSv1.2
+2020-10-03 17:33:12,103 DEBUG [TestNG-test=API Automation Test Case-1] SSLConnectionSocketFactory:467 -  negotiated cipher suite: TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256
+2020-10-03 17:33:12,104 DEBUG [TestNG-test=API Automation Test Case-1] SSLConnectionSocketFactory:475 -  peer principal: CN=sni.cloudflaressl.com, O="Cloudflare, Inc.", L=San Francisco, ST=CA, C=US
+2020-10-03 17:33:12,104 DEBUG [TestNG-test=API Automation Test Case-1] SSLConnectionSocketFactory:484 -  peer alternative names: [reqres.in, sni.cloudflaressl.com, *.reqres.in]
+2020-10-03 17:33:12,104 DEBUG [TestNG-test=API Automation Test Case-1] SSLConnectionSocketFactory:488 -  issuer principal: CN=Cloudflare Inc ECC CA-3, O="Cloudflare, Inc.", C=US
+2020-10-03 17:33:12,105 DEBUG [TestNG-test=API Automation Test Case-1] DefaultHttpClientConnectionOperator:146 - Connection established 192.168.1.203:58736<->172.67.222.36:443
+2020-10-03 17:33:12,105 DEBUG [TestNG-test=API Automation Test Case-1] MainClientExec:255 - Executing request POST /api/users HTTP/1.1
+2020-10-03 17:33:12,105 DEBUG [TestNG-test=API Automation Test Case-1] MainClientExec:260 - Target auth state: UNCHALLENGED
+2020-10-03 17:33:12,105 DEBUG [TestNG-test=API Automation Test Case-1] MainClientExec:266 - Proxy auth state: UNCHALLENGED
+2020-10-03 17:33:12,105 DEBUG [TestNG-test=API Automation Test Case-1] headers:133 - http-outgoing-1 >> POST /api/users HTTP/1.1
+2020-10-03 17:33:12,105 DEBUG [TestNG-test=API Automation Test Case-1] headers:136 - http-outgoing-1 >> password: test123
+2020-10-03 17:33:12,106 DEBUG [TestNG-test=API Automation Test Case-1] headers:136 - http-outgoing-1 >> content-type: application/json
+2020-10-03 17:33:12,106 DEBUG [TestNG-test=API Automation Test Case-1] headers:136 - http-outgoing-1 >> Auth Token: 213XSds32
+2020-10-03 17:33:12,106 DEBUG [TestNG-test=API Automation Test Case-1] headers:136 - http-outgoing-1 >> username: test
+2020-10-03 17:33:12,106 DEBUG [TestNG-test=API Automation Test Case-1] headers:136 - http-outgoing-1 >> Content-Length: 60
+2020-10-03 17:33:12,107 DEBUG [TestNG-test=API Automation Test Case-1] headers:136 - http-outgoing-1 >> Host: reqres.in
+2020-10-03 17:33:12,107 DEBUG [TestNG-test=API Automation Test Case-1] headers:136 - http-outgoing-1 >> Connection: Keep-Alive
+2020-10-03 17:33:12,107 DEBUG [TestNG-test=API Automation Test Case-1] headers:136 - http-outgoing-1 >> User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_261)
+2020-10-03 17:33:12,107 DEBUG [TestNG-test=API Automation Test Case-1] headers:136 - http-outgoing-1 >> Accept-Encoding: gzip,deflate
+2020-10-03 17:33:12,108 DEBUG [TestNG-test=API Automation Test Case-1] wire:73 - http-outgoing-1 >> "POST /api/users HTTP/1.1[\r][\n]"
+2020-10-03 17:33:12,108 DEBUG [TestNG-test=API Automation Test Case-1] wire:73 - http-outgoing-1 >> "password: test123[\r][\n]"
+2020-10-03 17:33:12,108 DEBUG [TestNG-test=API Automation Test Case-1] wire:73 - http-outgoing-1 >> "content-type: application/json[\r][\n]"
+2020-10-03 17:33:12,108 DEBUG [TestNG-test=API Automation Test Case-1] wire:73 - http-outgoing-1 >> "Auth Token: 213XSds32[\r][\n]"
+2020-10-03 17:33:12,109 DEBUG [TestNG-test=API Automation Test Case-1] wire:73 - http-outgoing-1 >> "username: test[\r][\n]"
+2020-10-03 17:33:12,109 DEBUG [TestNG-test=API Automation Test Case-1] wire:73 - http-outgoing-1 >> "Content-Length: 60[\r][\n]"
+2020-10-03 17:33:12,109 DEBUG [TestNG-test=API Automation Test Case-1] wire:73 - http-outgoing-1 >> "Host: reqres.in[\r][\n]"
+2020-10-03 17:33:12,109 DEBUG [TestNG-test=API Automation Test Case-1] wire:73 - http-outgoing-1 >> "Connection: Keep-Alive[\r][\n]"
+2020-10-03 17:33:12,109 DEBUG [TestNG-test=API Automation Test Case-1] wire:73 - http-outgoing-1 >> "User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_261)[\r][\n]"
+2020-10-03 17:33:12,109 DEBUG [TestNG-test=API Automation Test Case-1] wire:73 - http-outgoing-1 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2020-10-03 17:33:12,110 DEBUG [TestNG-test=API Automation Test Case-1] wire:73 - http-outgoing-1 >> "[\r][\n]"
+2020-10-03 17:33:12,110 DEBUG [TestNG-test=API Automation Test Case-1] wire:87 - http-outgoing-1 >> "{"name":"Morphes","job":"Leader","id":null,"createdAt":null}"
+2020-10-03 17:33:12,190 DEBUG [TestNG-test=API Automation Test Case-2] wire:73 - http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+2020-10-03 17:33:12,191 DEBUG [TestNG-test=API Automation Test Case-2] wire:73 - http-outgoing-0 << "Date: Sat, 03 Oct 2020 12:03:11 GMT[\r][\n]"
+2020-10-03 17:33:12,192 DEBUG [TestNG-test=API Automation Test Case-2] wire:73 - http-outgoing-0 << "Content-Type: application/json; charset=utf-8[\r][\n]"
+2020-10-03 17:33:12,192 DEBUG [TestNG-test=API Automation Test Case-2] wire:73 - http-outgoing-0 << "Transfer-Encoding: chunked[\r][\n]"
+2020-10-03 17:33:12,192 DEBUG [TestNG-test=API Automation Test Case-2] wire:73 - http-outgoing-0 << "Connection: keep-alive[\r][\n]"
+2020-10-03 17:33:12,193 DEBUG [TestNG-test=API Automation Test Case-2] wire:73 - http-outgoing-0 << "Set-Cookie: __cfduid=dfb7d7954fad93a6e2bb32c4a0398d6131601726591; expires=Mon, 02-Nov-20 12:03:11 GMT; path=/; domain=.reqres.in; HttpOnly; SameSite=Lax; Secure[\r][\n]"
+2020-10-03 17:33:12,193 DEBUG [TestNG-test=API Automation Test Case-2] wire:73 - http-outgoing-0 << "X-Powered-By: Express[\r][\n]"
+2020-10-03 17:33:12,193 DEBUG [TestNG-test=API Automation Test Case-2] wire:73 - http-outgoing-0 << "Access-Control-Allow-Origin: *[\r][\n]"
+2020-10-03 17:33:12,194 DEBUG [TestNG-test=API Automation Test Case-2] wire:73 - http-outgoing-0 << "Etag: W/"4c5-znzuruTKwnH4068T7ikF88YcCME"[\r][\n]"
+2020-10-03 17:33:12,194 DEBUG [TestNG-test=API Automation Test Case-2] wire:73 - http-outgoing-0 << "Via: 1.1 vegur[\r][\n]"
+2020-10-03 17:33:12,194 DEBUG [TestNG-test=API Automation Test Case-2] wire:73 - http-outgoing-0 << "Cache-Control: max-age=14400[\r][\n]"
+2020-10-03 17:33:12,194 DEBUG [TestNG-test=API Automation Test Case-2] wire:73 - http-outgoing-0 << "CF-Cache-Status: HIT[\r][\n]"
+2020-10-03 17:33:12,195 DEBUG [TestNG-test=API Automation Test Case-2] wire:73 - http-outgoing-0 << "Age: 5497[\r][\n]"
+2020-10-03 17:33:12,196 DEBUG [TestNG-test=API Automation Test Case-2] wire:73 - http-outgoing-0 << "cf-request-id: 058ff14b050000076684adc200000001[\r][\n]"
+2020-10-03 17:33:12,196 DEBUG [TestNG-test=API Automation Test Case-2] wire:73 - http-outgoing-0 << "Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"[\r][\n]"
+2020-10-03 17:33:12,197 DEBUG [TestNG-test=API Automation Test Case-2] wire:73 - http-outgoing-0 << "Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report?lkg-colo=21&lkg-time=1601726592"}],"group":"cf-nel","max_age":604800}[\r][\n]"
+2020-10-03 17:33:12,197 DEBUG [TestNG-test=API Automation Test Case-2] wire:73 - http-outgoing-0 << "NEL: {"report_to":"cf-nel","max_age":604800}[\r][\n]"
+2020-10-03 17:33:12,197 DEBUG [TestNG-test=API Automation Test Case-2] wire:73 - http-outgoing-0 << "Vary: Accept-Encoding[\r][\n]"
+2020-10-03 17:33:12,198 DEBUG [TestNG-test=API Automation Test Case-2] wire:73 - http-outgoing-0 << "Server: cloudflare[\r][\n]"
+2020-10-03 17:33:12,198 DEBUG [TestNG-test=API Automation Test Case-2] wire:73 - http-outgoing-0 << "CF-RAY: 5dc684be6a2b0766-LHR[\r][\n]"
+2020-10-03 17:33:12,198 DEBUG [TestNG-test=API Automation Test Case-2] wire:73 - http-outgoing-0 << "Content-Encoding: gzip[\r][\n]"
+2020-10-03 17:33:12,199 DEBUG [TestNG-test=API Automation Test Case-2] wire:73 - http-outgoing-0 << "[\r][\n]"
+2020-10-03 17:33:12,199 DEBUG [TestNG-test=API Automation Test Case-2] wire:73 - http-outgoing-0 << "1cf[\r][\n]"
+2020-10-03 17:33:12,199 DEBUG [TestNG-test=API Automation Test Case-2] wire:73 - http-outgoing-0 << "[0x1f][0x8b][0x8][0x0][0x0][0x0][0x0][0x0][0x0][0x3][0xa5][0xd1]M[0x8b][0xdb]0[0x10][0x6][0xe0][0xbf]"[0xe6],l[0x92]m[0x97][0xe2]S[0xdb][0xa5][0xb4][0x14]zi[0xb]{(e[0x99][0xd8]cYYI[0xe3][0x8e][0xc6]v[0xb7]![0xff][0xbd][0xd8]Y[0xc8][0x92][0x90][0xbd][0xe4]"[0xf4][0xf1][0xbe][0xcc][0x3][0xda]A[0x8f][0x8e][0xa0]ZY[0xe8]I[0x1e][0xe][0x87][[0xb][0xca][0x8a][0x1][0xaa][0xd5][0xfa]y[0xbb][0xbc]d[0xa8][0xd6][0x16][0x1a]T[0x84][0xea][0xd7][0xe]|[0xb3][0xf4]([0xa2][0xf]P[0x81]#[0x16]G[0xc5]&[0xc][0xda][0xbd][0x17][0xfa]#[0x94][0xb][0x9f][0xc0]B[0xeb]%[0xeb]C[0xc2]HP[0xc1][0xe7]%[0x5][0x16][0x2][0x1e]/?[0xce][0x1d][0xb0][0x80]#*[\n]"
+2020-10-03 17:33:12,200 DEBUG [TestNG-test=API Automation Test Case-2] wire:73 - http-outgoing-0 << "T[0xd0][0xa9][0xf6][0xb9]*[0xcb]|S`[0xc4][0x9c]p[0xca]E[0xcd][0xb1][0x1c]|[0x8b]5[0xe5][0xf2][0xb0][0xea][0xe4]UI[0xca][0x1a][0x3]m[0xd8]5[0x94][0xca][0xd5][0xfa]][0xb1][0xed][0x1d][0xec][0xed][0x1][0xb8]>[0x2][0xb7][0x98]H[0x8b][0x89]p$[0xb9][0xc][0xfc]:[0xa7]N|[0xf7]K[0xe7][\n]"
+2020-10-03 17:33:12,200 DEBUG [TestNG-test=API Automation Test Case-2] wire:73 - http-outgoing-0 << "[0xe0][0x96]3[0xf5]]V[0xf2][0xe7][0xc2][0x9b][0xa3][0x90]b[0xc4]b[0xe2][0xe4].[0xf3]>[0xc5][0x88][0xa7]:N[0xee][\n]"
+2020-10-03 17:33:12,200 DEBUG [TestNG-test=API Automation Test Case-2] wire:73 - http-outgoing-0 << "[0x1b][0x7]r=;n[0x90][0xc6]3[0xdc][0x9b][0x17][0xb8][0x91][0x8a][0x8e][0x83][0xbe]b[0x1b]O?[0xf6][0xb][0x7][0xbd][0x82][0x16]Qj[0x16][0x8c]^([0x9f][0xd1][0xde][0x1e]iu[0x87][0x12]([0x17][0x91]E|[0xbe][0xc][0xbc];[0xe4]N[0x90][0xdf][0x96][0xd6][0x15][0xcc][0xac][0xd4]w[0x94]"[0xf3][0xf9][0xef][0xde][0x1e][0x95]*X[0xd3]S![0x18][0xf9][0x15][0xe3][0xcf]%uB[0xfc]>w[0xae][0x10]n[0xbc][0x8b][0x98][0xea][0x8e][0x8f][0xbe][0xdf][0x16][0xb0][0x81]j[0x7]5[0xc7][0x1e][0xd3][0x13]T[0xf0]CQ[0x87]|[0xc7][\r][0x99]{[0xa2][0xc7]0+[0x6][0x9][0xcf][0xe3][0xe6]iK[0xa0][0xe6][0x86][\n]"
+2020-10-03 17:33:12,200 DEBUG [TestNG-test=API Automation Test Case-2] wire:73 - http-outgoing-0 << "[0x16]W[0x82][0x5][0xa5][0xbf][\n]"
+2020-10-03 17:33:12,200 DEBUG [TestNG-test=API Automation Test Case-2] wire:87 - http-outgoing-0 << "[0x15]|0[0xd3]R0[0x89][0xa6][0x1c]h[0x9e]iZ[0xae][0x87][0xec][0x93]3[0x9c]L[0xe6]V'[0x14]2[\r][0x8d][0x14][0xb8][0x8f][0x94][0xd4][0x1a][0x9f]Z[0xc1][0xac]2[0xd4]:[0x8]Y[0xa3][0x1d][0x99]L2[0x92]X[0xd3][0x93][0xb4],3[0x9a][0xac]"
+2020-10-03 17:33:12,205 DEBUG [TestNG-test=API Automation Test Case-2] headers:122 - http-outgoing-0 << HTTP/1.1 200 OK
+2020-10-03 17:33:12,206 DEBUG [TestNG-test=API Automation Test Case-2] headers:125 - http-outgoing-0 << Date: Sat, 03 Oct 2020 12:03:11 GMT
+2020-10-03 17:33:12,206 DEBUG [TestNG-test=API Automation Test Case-2] headers:125 - http-outgoing-0 << Content-Type: application/json; charset=utf-8
+2020-10-03 17:33:12,206 DEBUG [TestNG-test=API Automation Test Case-2] headers:125 - http-outgoing-0 << Transfer-Encoding: chunked
+2020-10-03 17:33:12,206 DEBUG [TestNG-test=API Automation Test Case-2] headers:125 - http-outgoing-0 << Connection: keep-alive
+2020-10-03 17:33:12,207 DEBUG [TestNG-test=API Automation Test Case-2] headers:125 - http-outgoing-0 << Set-Cookie: __cfduid=dfb7d7954fad93a6e2bb32c4a0398d6131601726591; expires=Mon, 02-Nov-20 12:03:11 GMT; path=/; domain=.reqres.in; HttpOnly; SameSite=Lax; Secure
+2020-10-03 17:33:12,208 DEBUG [TestNG-test=API Automation Test Case-2] headers:125 - http-outgoing-0 << X-Powered-By: Express
+2020-10-03 17:33:12,208 DEBUG [TestNG-test=API Automation Test Case-2] headers:125 - http-outgoing-0 << Access-Control-Allow-Origin: *
+2020-10-03 17:33:12,208 DEBUG [TestNG-test=API Automation Test Case-2] headers:125 - http-outgoing-0 << Etag: W/"4c5-znzuruTKwnH4068T7ikF88YcCME"
+2020-10-03 17:33:12,208 DEBUG [TestNG-test=API Automation Test Case-2] headers:125 - http-outgoing-0 << Via: 1.1 vegur
+2020-10-03 17:33:12,208 DEBUG [TestNG-test=API Automation Test Case-2] headers:125 - http-outgoing-0 << Cache-Control: max-age=14400
+2020-10-03 17:33:12,208 DEBUG [TestNG-test=API Automation Test Case-2] headers:125 - http-outgoing-0 << CF-Cache-Status: HIT
+2020-10-03 17:33:12,208 DEBUG [TestNG-test=API Automation Test Case-2] headers:125 - http-outgoing-0 << Age: 5497
+2020-10-03 17:33:12,208 DEBUG [TestNG-test=API Automation Test Case-2] headers:125 - http-outgoing-0 << cf-request-id: 058ff14b050000076684adc200000001
+2020-10-03 17:33:12,208 DEBUG [TestNG-test=API Automation Test Case-2] headers:125 - http-outgoing-0 << Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+2020-10-03 17:33:12,208 DEBUG [TestNG-test=API Automation Test Case-2] headers:125 - http-outgoing-0 << Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report?lkg-colo=21&lkg-time=1601726592"}],"group":"cf-nel","max_age":604800}
+2020-10-03 17:33:12,209 DEBUG [TestNG-test=API Automation Test Case-2] headers:125 - http-outgoing-0 << NEL: {"report_to":"cf-nel","max_age":604800}
+2020-10-03 17:33:12,209 DEBUG [TestNG-test=API Automation Test Case-2] headers:125 - http-outgoing-0 << Vary: Accept-Encoding
+2020-10-03 17:33:12,209 DEBUG [TestNG-test=API Automation Test Case-2] headers:125 - http-outgoing-0 << Server: cloudflare
+2020-10-03 17:33:12,209 DEBUG [TestNG-test=API Automation Test Case-2] headers:125 - http-outgoing-0 << CF-RAY: 5dc684be6a2b0766-LHR
+2020-10-03 17:33:12,209 DEBUG [TestNG-test=API Automation Test Case-2] headers:125 - http-outgoing-0 << Content-Encoding: gzip
+2020-10-03 17:33:12,219 DEBUG [TestNG-test=API Automation Test Case-2] MainClientExec:285 - Connection can be kept alive indefinitely
+2020-10-03 17:33:12,232 DEBUG [TestNG-test=API Automation Test Case-2] ResponseProcessCookies:119 - Cookie accepted [__cfduid="dfb7d7954fad93a6e2bb32c4a0398d6131601726591", version:0, domain:reqres.in, path:/, expiry:Mon Nov 02 17:33:11 IST 2020]
+2020-10-03 17:33:12,235  INFO [TestNG-test=API Automation Test Case-2] GetAPITest:59 - GET request status code is: 200
+2020-10-03 17:33:12,238 DEBUG [TestNG-test=API Automation Test Case-2] wire:73 - http-outgoing-0 << "[0xc1][0xd4][0x1c][0x1e][0x15][0xeb]GC[0xa9]1[0xdc][0x1a][0xed]|r[0xb9][0x80][0xfd][0xfe]?[0x19][0x99][0x0]^[0xc5][0x4][0x0][0x0][\r][\n]"
+2020-10-03 17:33:12,239 DEBUG [TestNG-test=API Automation Test Case-2] wire:73 - http-outgoing-0 << "0[\r][\n]"
+2020-10-03 17:33:12,239 DEBUG [TestNG-test=API Automation Test Case-2] wire:73 - http-outgoing-0 << "[\r][\n]"
+2020-10-03 17:33:12,240 DEBUG [TestNG-test=API Automation Test Case-2] PoolingHttpClientConnectionManager:344 - Connection [id: 0][route: {s}->https://reqres.in:443] can be kept alive indefinitely
+2020-10-03 17:33:12,240 DEBUG [TestNG-test=API Automation Test Case-2] DefaultManagedHttpClientConnection:88 - http-outgoing-0: set socket timeout to 0
+2020-10-03 17:33:12,240 DEBUG [TestNG-test=API Automation Test Case-2] PoolingHttpClientConnectionManager:351 - Connection released: [id: 0][route: {s}->https://reqres.in:443][total available: 1; route allocated: 1 of 2; total allocated: 1 of 20]
+2020-10-03 17:33:12,251  INFO [TestNG-test=API Automation Test Case-2] GetAPITest:68 - Respnse JSON Object is: {"per_page":6,"total":12,"ad":{"company":"StatusCode Weekly","text":"A weekly newsletter focusing on software development, infrastructure, the server, performance, and the stack end of things.","url":"http://statuscode.org/"},"data":[{"last_name":"Bluth","id":1,"avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/calebogden/128.jpg","first_name":"George","email":"george.bluth@reqres.in"},{"last_name":"Weaver","id":2,"avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/josephstein/128.jpg","first_name":"Janet","email":"janet.weaver@reqres.in"},{"last_name":"Wong","id":3,"avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/olegpogodaev/128.jpg","first_name":"Emma","email":"emma.wong@reqres.in"},{"last_name":"Holt","id":4,"avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/marcoramires/128.jpg","first_name":"Eve","email":"eve.holt@reqres.in"},{"last_name":"Morris","id":5,"avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/stephenmoon/128.jpg","first_name":"Charles","email":"charles.morris@reqres.in"},{"last_name":"Ramos","id":6,"avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/bigmancho/128.jpg","first_name":"Tracey","email":"tracey.ramos@reqres.in"}],"page":1,"total_pages":2}
+2020-10-03 17:33:12,253  INFO [TestNG-test=API Automation Test Case-2] GetAPITest:71 - Response per page value is: 6
+2020-10-03 17:33:12,253  INFO [TestNG-test=API Automation Test Case-2] GetAPITest:76 - Total page value is: 12
+2020-10-03 17:33:12,253  INFO [TestNG-test=API Automation Test Case-2] GetAPITest:86 - Bluth
+2020-10-03 17:33:12,253  INFO [TestNG-test=API Automation Test Case-2] GetAPITest:87 - 1
+2020-10-03 17:33:12,253  INFO [TestNG-test=API Automation Test Case-2] GetAPITest:88 - https://s3.amazonaws.com/uifaces/faces/twitter/calebogden/128.jpg
+2020-10-03 17:33:12,253  INFO [TestNG-test=API Automation Test Case-2] GetAPITest:89 - George
+2020-10-03 17:33:12,254  INFO [TestNG-test=API Automation Test Case-2] GetAPITest:100 - Headers Array: {Transfer-Encoding=chunked, Server=cloudflare, CF-RAY=5dc684be6a2b0766-LHR, Access-Control-Allow-Origin=*, Connection=keep-alive, Date=Sat, 03 Oct 2020 12:03:11 GMT, Via=1.1 vegur, CF-Cache-Status=HIT, Etag=W/"4c5-znzuruTKwnH4068T7ikF88YcCME", Cache-Control=max-age=14400, NEL={"report_to":"cf-nel","max_age":604800}, Report-To={"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report?lkg-colo=21&lkg-time=1601726592"}],"group":"cf-nel","max_age":604800}, Set-Cookie=__cfduid=dfb7d7954fad93a6e2bb32c4a0398d6131601726591; expires=Mon, 02-Nov-20 12:03:11 GMT; path=/; domain=.reqres.in; HttpOnly; SameSite=Lax; Secure, Vary=Accept-Encoding, Age=5497, Content-Type=application/json; charset=utf-8, X-Powered-By=Express, cf-request-id=058ff14b050000076684adc200000001, Expect-CT=max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"}
+2020-10-03 17:33:12,270 DEBUG [TestNG-test=API Automation Test Case-2] RequestAddCookies:123 - CookieSpec selected: default
+2020-10-03 17:33:12,270 DEBUG [TestNG-test=API Automation Test Case-2] RequestAuthCache:77 - Auth cache not set in the context
+2020-10-03 17:33:12,270 DEBUG [TestNG-test=API Automation Test Case-2] PoolingHttpClientConnectionManager:267 - Connection request: [route: {s}->https://reqres.in:443][total available: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+2020-10-03 17:33:12,271 DEBUG [TestNG-test=API Automation Test Case-2] PoolingHttpClientConnectionManager:312 - Connection leased: [id: 2][route: {s}->https://reqres.in:443][total available: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+2020-10-03 17:33:12,271 DEBUG [TestNG-test=API Automation Test Case-2] MainClientExec:234 - Opening connection {s}->https://reqres.in:443
+2020-10-03 17:33:12,271 DEBUG [TestNG-test=API Automation Test Case-2] DefaultHttpClientConnectionOperator:139 - Connecting to reqres.in/172.67.222.36:443
+2020-10-03 17:33:12,271 DEBUG [TestNG-test=API Automation Test Case-2] SSLConnectionSocketFactory:366 - Connecting socket to reqres.in/172.67.222.36:443 with timeout 0
+2020-10-03 17:33:12,308 DEBUG [TestNG-test=API Automation Test Case-1] wire:73 - http-outgoing-1 << "HTTP/1.1 201 Created[\r][\n]"
+2020-10-03 17:33:12,309 DEBUG [TestNG-test=API Automation Test Case-1] wire:73 - http-outgoing-1 << "Date: Sat, 03 Oct 2020 12:03:11 GMT[\r][\n]"
+2020-10-03 17:33:12,309 DEBUG [TestNG-test=API Automation Test Case-1] wire:73 - http-outgoing-1 << "Content-Type: application/json; charset=utf-8[\r][\n]"
+2020-10-03 17:33:12,310 DEBUG [TestNG-test=API Automation Test Case-1] wire:73 - http-outgoing-1 << "Content-Length: 83[\r][\n]"
+2020-10-03 17:33:12,310 DEBUG [TestNG-test=API Automation Test Case-1] wire:73 - http-outgoing-1 << "Connection: keep-alive[\r][\n]"
+2020-10-03 17:33:12,310 DEBUG [TestNG-test=API Automation Test Case-1] wire:73 - http-outgoing-1 << "Set-Cookie: __cfduid=d313a3aa997b8949255d23e899d7a858b1601726591; expires=Mon, 02-Nov-20 12:03:11 GMT; path=/; domain=.reqres.in; HttpOnly; SameSite=Lax; Secure[\r][\n]"
+2020-10-03 17:33:12,311 DEBUG [TestNG-test=API Automation Test Case-1] wire:73 - http-outgoing-1 << "X-Powered-By: Express[\r][\n]"
+2020-10-03 17:33:12,311 DEBUG [TestNG-test=API Automation Test Case-1] wire:73 - http-outgoing-1 << "Access-Control-Allow-Origin: *[\r][\n]"
+2020-10-03 17:33:12,311 DEBUG [TestNG-test=API Automation Test Case-1] wire:73 - http-outgoing-1 << "Etag: W/"53-/X4D9i3HCLZNtLcUxWsbN8tXOC4"[\r][\n]"
+2020-10-03 17:33:12,312 DEBUG [TestNG-test=API Automation Test Case-1] wire:73 - http-outgoing-1 << "Via: 1.1 vegur[\r][\n]"
+2020-10-03 17:33:12,312 DEBUG [TestNG-test=API Automation Test Case-1] wire:73 - http-outgoing-1 << "CF-Cache-Status: DYNAMIC[\r][\n]"
+2020-10-03 17:33:12,312 DEBUG [TestNG-test=API Automation Test Case-1] wire:73 - http-outgoing-1 << "cf-request-id: 058ff14b500000ce5feb9db200000001[\r][\n]"
+2020-10-03 17:33:12,313 DEBUG [TestNG-test=API Automation Test Case-1] wire:73 - http-outgoing-1 << "Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"[\r][\n]"
+2020-10-03 17:33:12,313 DEBUG [TestNG-test=API Automation Test Case-1] wire:73 - http-outgoing-1 << "Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report?lkg-colo=21&lkg-time=1601726592"}],"group":"cf-nel","max_age":604800}[\r][\n]"
+2020-10-03 17:33:12,313 DEBUG [TestNG-test=API Automation Test Case-1] wire:73 - http-outgoing-1 << "NEL: {"report_to":"cf-nel","max_age":604800}[\r][\n]"
+2020-10-03 17:33:12,313 DEBUG [TestNG-test=API Automation Test Case-1] wire:73 - http-outgoing-1 << "Server: cloudflare[\r][\n]"
+2020-10-03 17:33:12,314 DEBUG [TestNG-test=API Automation Test Case-1] wire:73 - http-outgoing-1 << "CF-RAY: 5dc684beeeefce5f-LHR[\r][\n]"
+2020-10-03 17:33:12,314 DEBUG [TestNG-test=API Automation Test Case-1] wire:73 - http-outgoing-1 << "[\r][\n]"
+2020-10-03 17:33:12,314 DEBUG [TestNG-test=API Automation Test Case-1] wire:87 - http-outgoing-1 << "{"name":"Morphes","job":"Leader","id":"391","createdAt":"2020-10-03T12:03:11.873Z"}"
+2020-10-03 17:33:12,314 DEBUG [TestNG-test=API Automation Test Case-1] headers:122 - http-outgoing-1 << HTTP/1.1 201 Created
+2020-10-03 17:33:12,314 DEBUG [TestNG-test=API Automation Test Case-1] headers:125 - http-outgoing-1 << Date: Sat, 03 Oct 2020 12:03:11 GMT
+2020-10-03 17:33:12,314 DEBUG [TestNG-test=API Automation Test Case-1] headers:125 - http-outgoing-1 << Content-Type: application/json; charset=utf-8
+2020-10-03 17:33:12,314 DEBUG [TestNG-test=API Automation Test Case-1] headers:125 - http-outgoing-1 << Content-Length: 83
+2020-10-03 17:33:12,315 DEBUG [TestNG-test=API Automation Test Case-1] headers:125 - http-outgoing-1 << Connection: keep-alive
+2020-10-03 17:33:12,315 DEBUG [TestNG-test=API Automation Test Case-1] headers:125 - http-outgoing-1 << Set-Cookie: __cfduid=d313a3aa997b8949255d23e899d7a858b1601726591; expires=Mon, 02-Nov-20 12:03:11 GMT; path=/; domain=.reqres.in; HttpOnly; SameSite=Lax; Secure
+2020-10-03 17:33:12,315 DEBUG [TestNG-test=API Automation Test Case-1] headers:125 - http-outgoing-1 << X-Powered-By: Express
+2020-10-03 17:33:12,315 DEBUG [TestNG-test=API Automation Test Case-1] headers:125 - http-outgoing-1 << Access-Control-Allow-Origin: *
+2020-10-03 17:33:12,316 DEBUG [TestNG-test=API Automation Test Case-1] headers:125 - http-outgoing-1 << Etag: W/"53-/X4D9i3HCLZNtLcUxWsbN8tXOC4"
+2020-10-03 17:33:12,316 DEBUG [TestNG-test=API Automation Test Case-1] headers:125 - http-outgoing-1 << Via: 1.1 vegur
+2020-10-03 17:33:12,316 DEBUG [TestNG-test=API Automation Test Case-1] headers:125 - http-outgoing-1 << CF-Cache-Status: DYNAMIC
+2020-10-03 17:33:12,316 DEBUG [TestNG-test=API Automation Test Case-1] headers:125 - http-outgoing-1 << cf-request-id: 058ff14b500000ce5feb9db200000001
+2020-10-03 17:33:12,317 DEBUG [TestNG-test=API Automation Test Case-1] headers:125 - http-outgoing-1 << Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+2020-10-03 17:33:12,317 DEBUG [TestNG-test=API Automation Test Case-1] headers:125 - http-outgoing-1 << Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report?lkg-colo=21&lkg-time=1601726592"}],"group":"cf-nel","max_age":604800}
+2020-10-03 17:33:12,317 DEBUG [TestNG-test=API Automation Test Case-1] headers:125 - http-outgoing-1 << NEL: {"report_to":"cf-nel","max_age":604800}
+2020-10-03 17:33:12,317 DEBUG [TestNG-test=API Automation Test Case-1] headers:125 - http-outgoing-1 << Server: cloudflare
+2020-10-03 17:33:12,317 DEBUG [TestNG-test=API Automation Test Case-1] headers:125 - http-outgoing-1 << CF-RAY: 5dc684beeeefce5f-LHR
+2020-10-03 17:33:12,318 DEBUG [TestNG-test=API Automation Test Case-1] MainClientExec:285 - Connection can be kept alive indefinitely
+2020-10-03 17:33:12,320 DEBUG [TestNG-test=API Automation Test Case-1] ResponseProcessCookies:119 - Cookie accepted [__cfduid="d313a3aa997b8949255d23e899d7a858b1601726591", version:0, domain:reqres.in, path:/, expiry:Mon Nov 02 17:33:11 IST 2020]
+2020-10-03 17:33:12,322  INFO [TestNG-test=API Automation Test Case-1] PostAPITest:80 - Status code for POST call is: 201
+2020-10-03 17:33:12,325 DEBUG [TestNG-test=API Automation Test Case-1] PoolingHttpClientConnectionManager:344 - Connection [id: 1][route: {s}->https://reqres.in:443] can be kept alive indefinitely
+2020-10-03 17:33:12,325 DEBUG [TestNG-test=API Automation Test Case-1] DefaultManagedHttpClientConnection:88 - http-outgoing-1: set socket timeout to 0
+2020-10-03 17:33:12,326 DEBUG [TestNG-test=API Automation Test Case-1] PoolingHttpClientConnectionManager:351 - Connection released: [id: 1][route: {s}->https://reqres.in:443][total available: 1; route allocated: 1 of 2; total allocated: 1 of 20]
+2020-10-03 17:33:12,326  INFO [TestNG-test=API Automation Test Case-1] PostAPITest:87 - POST API response is: {"createdAt":"2020-10-03T12:03:11.873Z","name":"Morphes","id":"391","job":"Leader"}
+2020-10-03 17:33:12,369  INFO [TestNG-test=API Automation Test Case-1] PostAPITest:91 - User response is: com.dgsl.restapi.data.Users@51781879
+2020-10-03 17:33:12,369  INFO [TestNG-test=API Automation Test Case-1] PostAPITest:93 - true
+2020-10-03 17:33:12,369  INFO [TestNG-test=API Automation Test Case-1] PostAPITest:94 - true
+2020-10-03 17:33:12,369  INFO [TestNG-test=API Automation Test Case-1] PostAPITest:99 - 391
+2020-10-03 17:33:12,369  INFO [TestNG-test=API Automation Test Case-1] PostAPITest:100 - 2020-10-03T12:03:11.873Z
+2020-10-03 17:33:12,420 DEBUG [TestNG-test=API Automation Test Case-2] SSLConnectionSocketFactory:430 - Enabled protocols: [TLSv1.2, TLSv1.1, TLSv1]
+2020-10-03 17:33:12,420 DEBUG [TestNG-test=API Automation Test Case-2] SSLConnectionSocketFactory:431 - Enabled cipher suites:[TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDH_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDH_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_DSS_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_DSS_WITH_AES_128_GCM_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384, TLS_RSA_WITH_AES_256_CBC_SHA256, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA384, TLS_DHE_RSA_WITH_AES_256_CBC_SHA256, TLS_DHE_DSS_WITH_AES_256_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_DSS_WITH_AES_256_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_DSS_WITH_AES_128_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_DSS_WITH_AES_128_CBC_SHA, TLS_EMPTY_RENEGOTIATION_INFO_SCSV]
+2020-10-03 17:33:12,421 DEBUG [TestNG-test=API Automation Test Case-2] SSLConnectionSocketFactory:435 - Starting handshake
+2020-10-03 17:33:12,759 DEBUG [TestNG-test=API Automation Test Case-2] SSLConnectionSocketFactory:465 - Secure session established
+2020-10-03 17:33:12,759 DEBUG [TestNG-test=API Automation Test Case-2] SSLConnectionSocketFactory:466 -  negotiated protocol: TLSv1.2
+2020-10-03 17:33:12,761 DEBUG [TestNG-test=API Automation Test Case-2] SSLConnectionSocketFactory:467 -  negotiated cipher suite: TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256
+2020-10-03 17:33:12,762 DEBUG [TestNG-test=API Automation Test Case-2] SSLConnectionSocketFactory:475 -  peer principal: CN=sni.cloudflaressl.com, O="Cloudflare, Inc.", L=San Francisco, ST=CA, C=US
+2020-10-03 17:33:12,762 DEBUG [TestNG-test=API Automation Test Case-2] SSLConnectionSocketFactory:484 -  peer alternative names: [reqres.in, sni.cloudflaressl.com, *.reqres.in]
+2020-10-03 17:33:12,763 DEBUG [TestNG-test=API Automation Test Case-2] SSLConnectionSocketFactory:488 -  issuer principal: CN=Cloudflare Inc ECC CA-3, O="Cloudflare, Inc.", C=US
+2020-10-03 17:33:12,764 DEBUG [TestNG-test=API Automation Test Case-2] DefaultHttpClientConnectionOperator:146 - Connection established 192.168.1.203:58737<->172.67.222.36:443
+2020-10-03 17:33:12,764 DEBUG [TestNG-test=API Automation Test Case-2] MainClientExec:255 - Executing request GET /api/users HTTP/1.1
+2020-10-03 17:33:12,765 DEBUG [TestNG-test=API Automation Test Case-2] MainClientExec:260 - Target auth state: UNCHALLENGED
+2020-10-03 17:33:12,765 DEBUG [TestNG-test=API Automation Test Case-2] MainClientExec:266 - Proxy auth state: UNCHALLENGED
+2020-10-03 17:33:12,766 DEBUG [TestNG-test=API Automation Test Case-2] headers:133 - http-outgoing-2 >> GET /api/users HTTP/1.1
+2020-10-03 17:33:12,766 DEBUG [TestNG-test=API Automation Test Case-2] headers:136 - http-outgoing-2 >> password: test123
+2020-10-03 17:33:12,766 DEBUG [TestNG-test=API Automation Test Case-2] headers:136 - http-outgoing-2 >> content-type: application/json
+2020-10-03 17:33:12,766 DEBUG [TestNG-test=API Automation Test Case-2] headers:136 - http-outgoing-2 >> Auth Token: 213XSds32
+2020-10-03 17:33:12,766 DEBUG [TestNG-test=API Automation Test Case-2] headers:136 - http-outgoing-2 >> username: test
+2020-10-03 17:33:12,766 DEBUG [TestNG-test=API Automation Test Case-2] headers:136 - http-outgoing-2 >> Host: reqres.in
+2020-10-03 17:33:12,767 DEBUG [TestNG-test=API Automation Test Case-2] headers:136 - http-outgoing-2 >> Connection: Keep-Alive
+2020-10-03 17:33:12,767 DEBUG [TestNG-test=API Automation Test Case-2] headers:136 - http-outgoing-2 >> User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_261)
+2020-10-03 17:33:12,767 DEBUG [TestNG-test=API Automation Test Case-2] headers:136 - http-outgoing-2 >> Accept-Encoding: gzip,deflate
+2020-10-03 17:33:12,767 DEBUG [TestNG-test=API Automation Test Case-2] wire:73 - http-outgoing-2 >> "GET /api/users HTTP/1.1[\r][\n]"
+2020-10-03 17:33:12,767 DEBUG [TestNG-test=API Automation Test Case-2] wire:73 - http-outgoing-2 >> "password: test123[\r][\n]"
+2020-10-03 17:33:12,767 DEBUG [TestNG-test=API Automation Test Case-2] wire:73 - http-outgoing-2 >> "content-type: application/json[\r][\n]"
+2020-10-03 17:33:12,768 DEBUG [TestNG-test=API Automation Test Case-2] wire:73 - http-outgoing-2 >> "Auth Token: 213XSds32[\r][\n]"
+2020-10-03 17:33:12,768 DEBUG [TestNG-test=API Automation Test Case-2] wire:73 - http-outgoing-2 >> "username: test[\r][\n]"
+2020-10-03 17:33:12,768 DEBUG [TestNG-test=API Automation Test Case-2] wire:73 - http-outgoing-2 >> "Host: reqres.in[\r][\n]"
+2020-10-03 17:33:12,768 DEBUG [TestNG-test=API Automation Test Case-2] wire:73 - http-outgoing-2 >> "Connection: Keep-Alive[\r][\n]"
+2020-10-03 17:33:12,768 DEBUG [TestNG-test=API Automation Test Case-2] wire:73 - http-outgoing-2 >> "User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_261)[\r][\n]"
+2020-10-03 17:33:12,768 DEBUG [TestNG-test=API Automation Test Case-2] wire:73 - http-outgoing-2 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2020-10-03 17:33:12,768 DEBUG [TestNG-test=API Automation Test Case-2] wire:73 - http-outgoing-2 >> "[\r][\n]"
+2020-10-03 17:33:12,963 DEBUG [TestNG-test=API Automation Test Case-2] wire:73 - http-outgoing-2 << "HTTP/1.1 200 OK[\r][\n]"
+2020-10-03 17:33:12,965 DEBUG [TestNG-test=API Automation Test Case-2] wire:73 - http-outgoing-2 << "Date: Sat, 03 Oct 2020 12:03:12 GMT[\r][\n]"
+2020-10-03 17:33:12,965 DEBUG [TestNG-test=API Automation Test Case-2] wire:73 - http-outgoing-2 << "Content-Type: application/json; charset=utf-8[\r][\n]"
+2020-10-03 17:33:12,965 DEBUG [TestNG-test=API Automation Test Case-2] wire:73 - http-outgoing-2 << "Transfer-Encoding: chunked[\r][\n]"
+2020-10-03 17:33:12,965 DEBUG [TestNG-test=API Automation Test Case-2] wire:73 - http-outgoing-2 << "Connection: keep-alive[\r][\n]"
+2020-10-03 17:33:12,966 DEBUG [TestNG-test=API Automation Test Case-2] wire:73 - http-outgoing-2 << "Set-Cookie: __cfduid=df94aa92ec08beef556d4c3a1ebd4bdb61601726592; expires=Mon, 02-Nov-20 12:03:12 GMT; path=/; domain=.reqres.in; HttpOnly; SameSite=Lax; Secure[\r][\n]"
+2020-10-03 17:33:12,966 DEBUG [TestNG-test=API Automation Test Case-2] wire:73 - http-outgoing-2 << "X-Powered-By: Express[\r][\n]"
+2020-10-03 17:33:12,966 DEBUG [TestNG-test=API Automation Test Case-2] wire:73 - http-outgoing-2 << "Access-Control-Allow-Origin: *[\r][\n]"
+2020-10-03 17:33:12,966 DEBUG [TestNG-test=API Automation Test Case-2] wire:73 - http-outgoing-2 << "Etag: W/"4c5-znzuruTKwnH4068T7ikF88YcCME"[\r][\n]"
+2020-10-03 17:33:12,966 DEBUG [TestNG-test=API Automation Test Case-2] wire:73 - http-outgoing-2 << "Via: 1.1 vegur[\r][\n]"
+2020-10-03 17:33:12,967 DEBUG [TestNG-test=API Automation Test Case-2] wire:73 - http-outgoing-2 << "Cache-Control: max-age=14400[\r][\n]"
+2020-10-03 17:33:12,967 DEBUG [TestNG-test=API Automation Test Case-2] wire:73 - http-outgoing-2 << "CF-Cache-Status: HIT[\r][\n]"
+2020-10-03 17:33:12,967 DEBUG [TestNG-test=API Automation Test Case-2] wire:73 - http-outgoing-2 << "Age: 5498[\r][\n]"
+2020-10-03 17:33:12,967 DEBUG [TestNG-test=API Automation Test Case-2] wire:73 - http-outgoing-2 << "cf-request-id: 058ff14ddf0000076ef3137200000001[\r][\n]"
+2020-10-03 17:33:12,968 DEBUG [TestNG-test=API Automation Test Case-2] wire:73 - http-outgoing-2 << "Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"[\r][\n]"
+2020-10-03 17:33:12,968 DEBUG [TestNG-test=API Automation Test Case-2] wire:73 - http-outgoing-2 << "Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report?lkg-colo=21&lkg-time=1601726592"}],"group":"cf-nel","max_age":604800}[\r][\n]"
+2020-10-03 17:33:12,968 DEBUG [TestNG-test=API Automation Test Case-2] wire:73 - http-outgoing-2 << "NEL: {"report_to":"cf-nel","max_age":604800}[\r][\n]"
+2020-10-03 17:33:12,968 DEBUG [TestNG-test=API Automation Test Case-2] wire:73 - http-outgoing-2 << "Vary: Accept-Encoding[\r][\n]"
+2020-10-03 17:33:12,968 DEBUG [TestNG-test=API Automation Test Case-2] wire:73 - http-outgoing-2 << "Server: cloudflare[\r][\n]"
+2020-10-03 17:33:12,968 DEBUG [TestNG-test=API Automation Test Case-2] wire:73 - http-outgoing-2 << "CF-RAY: 5dc684c2f9df076e-LHR[\r][\n]"
+2020-10-03 17:33:12,969 DEBUG [TestNG-test=API Automation Test Case-2] wire:73 - http-outgoing-2 << "Content-Encoding: gzip[\r][\n]"
+2020-10-03 17:33:12,969 DEBUG [TestNG-test=API Automation Test Case-2] wire:73 - http-outgoing-2 << "[\r][\n]"
+2020-10-03 17:33:12,969 DEBUG [TestNG-test=API Automation Test Case-2] wire:73 - http-outgoing-2 << "1cf[\r][\n]"
+2020-10-03 17:33:12,969 DEBUG [TestNG-test=API Automation Test Case-2] wire:73 - http-outgoing-2 << "[0x1f][0x8b][0x8][0x0][0x0][0x0][0x0][0x0][0x0][0x3][0xa5][0xd1]M[0x8b][0xdb]0[0x10][0x6][0xe0][0xbf]"[0xe6],l[0x92]m[0x97][0xe2]S[0xdb][0xa5][0xb4][0x14]zi[0xb]{(e[0x99][0xd8]cYYI[0xe3][0x8e][0xc6]v[0xb7]![0xff][0xbd][0xd8]Y[0xc8][0x92][0x90][0xbd][0xe4]"[0xf4][0xf1][0xbe][0xcc][0x3][0xda]A[0x8f][0x8e][0xa0]ZY[0xe8]I[0x1e][0xe][0x87][[0xb][0xca][0x8a][0x1][0xaa][0xd5][0xfa]y[0xbb][0xbc]d[0xa8][0xd6][0x16][0x1a]T[0x84][0xea][0xd7][0xe]|[0xb3][0xf4]([0xa2][0xf]P[0x81]#[0x16]G[0xc5]&[0xc][0xda][0xbd][0x17][0xfa]#[0x94][0xb][0x9f][0xc0]B[0xeb]%[0xeb]C[0xc2]HP[0xc1][0xe7]%[0x5][0x16][0x2][0x1e]/?[0xce][0x1d][0xb0][0x80]#*[\n]"
+2020-10-03 17:33:12,970 DEBUG [TestNG-test=API Automation Test Case-2] wire:73 - http-outgoing-2 << "T[0xd0][0xa9][0xf6][0xb9]*[0xcb]|S`[0xc4][0x9c]p[0xca]E[0xcd][0xb1][0x1c]|[0x8b]5[0xe5][0xf2][0xb0][0xea][0xe4]UI[0xca][0x1a][0x3]m[0xd8]5[0x94][0xca][0xd5][0xfa]][0xb1][0xed][0x1d][0xec][0xed][0x1][0xb8]>[0x2][0xb7][0x98]H[0x8b][0x89]p$[0xb9][0xc][0xfc]:[0xa7]N|[0xf7]K[0xe7][\n]"
+2020-10-03 17:33:12,970 DEBUG [TestNG-test=API Automation Test Case-2] wire:73 - http-outgoing-2 << "[0xe0][0x96]3[0xf5]]V[0xf2][0xe7][0xc2][0x9b][0xa3][0x90]b[0xc4]b[0xe2][0xe4].[0xf3]>[0xc5][0x88][0xa7]:N[0xee][\n]"
+2020-10-03 17:33:12,970 DEBUG [TestNG-test=API Automation Test Case-2] wire:73 - http-outgoing-2 << "[0x1b][0x7]r=;n[0x90][0xc6]3[0xdc][0x9b][0x17][0xb8][0x91][0x8a][0x8e][0x83][0xbe]b[0x1b]O?[0xf6][0xb][0x7][0xbd][0x82][0x16]Qj[0x16][0x8c]^([0x9f][0xd1][0xde][0x1e]iu[0x87][0x12]([0x17][0x91]E|[0xbe][0xc][0xbc];[0xe4]N[0x90][0xdf][0x96][0xd6][0x15][0xcc][0xac][0xd4]w[0x94]"[0xf3][0xf9][0xef][0xde][0x1e][0x95]*X[0xd3]S![0x18][0xf9][0x15][0xe3][0xcf]%uB[0xfc]>w[0xae][0x10]n[0xbc][0x8b][0x98][0xea][0x8e][0x8f][0xbe][0xdf][0x16][0xb0][0x81]j[0x7]5[0xc7][0x1e][0xd3][0x13]T[0xf0]CQ[0x87]|[0xc7][\r][0x99]{[0xa2][0xc7]0+[0x6][0x9][0xcf][0xe3][0xe6]iK[0xa0][0xe6][0x86][\n]"
+2020-10-03 17:33:12,970 DEBUG [TestNG-test=API Automation Test Case-2] wire:73 - http-outgoing-2 << "[0x16]W[0x82][0x5][0xa5][0xbf][\n]"
+2020-10-03 17:33:12,971 DEBUG [TestNG-test=API Automation Test Case-2] wire:87 - http-outgoing-2 << "[0x15]|0[0xd3]R0[0x89][0xa6][0x1c]h[0x9e]iZ[0xae][0x87][0xec][0x93]3[0x9c]L[0xe6]V'[0x14]2[\r][0x8d][0x14][0xb8][0x8f][0x94][0xd4][0x1a][0x9f]Z[0xc1][0xac]2[0xd4]:[0x8]Y[0xa3][0x1d][0x99]L2[0x92]X[0xd3][0x93][0xb4],3[0x9a][0xac]"
+2020-10-03 17:33:12,971 DEBUG [TestNG-test=API Automation Test Case-2] headers:122 - http-outgoing-2 << HTTP/1.1 200 OK
+2020-10-03 17:33:12,971 DEBUG [TestNG-test=API Automation Test Case-2] headers:125 - http-outgoing-2 << Date: Sat, 03 Oct 2020 12:03:12 GMT
+2020-10-03 17:33:12,971 DEBUG [TestNG-test=API Automation Test Case-2] headers:125 - http-outgoing-2 << Content-Type: application/json; charset=utf-8
+2020-10-03 17:33:12,972 DEBUG [TestNG-test=API Automation Test Case-2] headers:125 - http-outgoing-2 << Transfer-Encoding: chunked
+2020-10-03 17:33:12,972 DEBUG [TestNG-test=API Automation Test Case-2] headers:125 - http-outgoing-2 << Connection: keep-alive
+2020-10-03 17:33:12,972 DEBUG [TestNG-test=API Automation Test Case-2] headers:125 - http-outgoing-2 << Set-Cookie: __cfduid=df94aa92ec08beef556d4c3a1ebd4bdb61601726592; expires=Mon, 02-Nov-20 12:03:12 GMT; path=/; domain=.reqres.in; HttpOnly; SameSite=Lax; Secure
+2020-10-03 17:33:12,972 DEBUG [TestNG-test=API Automation Test Case-2] headers:125 - http-outgoing-2 << X-Powered-By: Express
+2020-10-03 17:33:12,972 DEBUG [TestNG-test=API Automation Test Case-2] headers:125 - http-outgoing-2 << Access-Control-Allow-Origin: *
+2020-10-03 17:33:12,973 DEBUG [TestNG-test=API Automation Test Case-2] headers:125 - http-outgoing-2 << Etag: W/"4c5-znzuruTKwnH4068T7ikF88YcCME"
+2020-10-03 17:33:12,973 DEBUG [TestNG-test=API Automation Test Case-2] headers:125 - http-outgoing-2 << Via: 1.1 vegur
+2020-10-03 17:33:12,973 DEBUG [TestNG-test=API Automation Test Case-2] headers:125 - http-outgoing-2 << Cache-Control: max-age=14400
+2020-10-03 17:33:12,973 DEBUG [TestNG-test=API Automation Test Case-2] headers:125 - http-outgoing-2 << CF-Cache-Status: HIT
+2020-10-03 17:33:12,973 DEBUG [TestNG-test=API Automation Test Case-2] headers:125 - http-outgoing-2 << Age: 5498
+2020-10-03 17:33:12,974 DEBUG [TestNG-test=API Automation Test Case-2] headers:125 - http-outgoing-2 << cf-request-id: 058ff14ddf0000076ef3137200000001
+2020-10-03 17:33:12,974 DEBUG [TestNG-test=API Automation Test Case-2] headers:125 - http-outgoing-2 << Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+2020-10-03 17:33:12,974 DEBUG [TestNG-test=API Automation Test Case-2] headers:125 - http-outgoing-2 << Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report?lkg-colo=21&lkg-time=1601726592"}],"group":"cf-nel","max_age":604800}
+2020-10-03 17:33:12,974 DEBUG [TestNG-test=API Automation Test Case-2] headers:125 - http-outgoing-2 << NEL: {"report_to":"cf-nel","max_age":604800}
+2020-10-03 17:33:12,974 DEBUG [TestNG-test=API Automation Test Case-2] headers:125 - http-outgoing-2 << Vary: Accept-Encoding
+2020-10-03 17:33:12,974 DEBUG [TestNG-test=API Automation Test Case-2] headers:125 - http-outgoing-2 << Server: cloudflare
+2020-10-03 17:33:12,975 DEBUG [TestNG-test=API Automation Test Case-2] headers:125 - http-outgoing-2 << CF-RAY: 5dc684c2f9df076e-LHR
+2020-10-03 17:33:12,975 DEBUG [TestNG-test=API Automation Test Case-2] headers:125 - http-outgoing-2 << Content-Encoding: gzip
+2020-10-03 17:33:12,975 DEBUG [TestNG-test=API Automation Test Case-2] MainClientExec:285 - Connection can be kept alive indefinitely
+2020-10-03 17:33:12,976 DEBUG [TestNG-test=API Automation Test Case-2] ResponseProcessCookies:119 - Cookie accepted [__cfduid="df94aa92ec08beef556d4c3a1ebd4bdb61601726592", version:0, domain:reqres.in, path:/, expiry:Mon Nov 02 17:33:12 IST 2020]
+2020-10-03 17:33:12,977  INFO [TestNG-test=API Automation Test Case-2] GetAPITest:119 - GET request status code is: 200
+2020-10-03 17:33:12,977 DEBUG [TestNG-test=API Automation Test Case-2] wire:73 - http-outgoing-2 << "[0xc1][0xd4][0x1c][0x1e][0x15][0xeb]GC[0xa9]1[0xdc][0x1a][0xed]|r[0xb9][0x80][0xfd][0xfe]?[0x19][0x99][0x0]^[0xc5][0x4][0x0][0x0][\r][\n]"
+2020-10-03 17:33:12,978 DEBUG [TestNG-test=API Automation Test Case-2] wire:73 - http-outgoing-2 << "0[\r][\n]"
+2020-10-03 17:33:12,978 DEBUG [TestNG-test=API Automation Test Case-2] wire:73 - http-outgoing-2 << "[\r][\n]"
+2020-10-03 17:33:12,978 DEBUG [TestNG-test=API Automation Test Case-2] PoolingHttpClientConnectionManager:344 - Connection [id: 2][route: {s}->https://reqres.in:443] can be kept alive indefinitely
+2020-10-03 17:33:12,978 DEBUG [TestNG-test=API Automation Test Case-2] DefaultManagedHttpClientConnection:88 - http-outgoing-2: set socket timeout to 0
+2020-10-03 17:33:12,978 DEBUG [TestNG-test=API Automation Test Case-2] PoolingHttpClientConnectionManager:351 - Connection released: [id: 2][route: {s}->https://reqres.in:443][total available: 1; route allocated: 1 of 2; total allocated: 1 of 20]
+2020-10-03 17:33:12,979  INFO [TestNG-test=API Automation Test Case-2] GetAPITest:128 - Respnse JSON Object is: {"per_page":6,"total":12,"ad":{"company":"StatusCode Weekly","text":"A weekly newsletter focusing on software development, infrastructure, the server, performance, and the stack end of things.","url":"http://statuscode.org/"},"data":[{"last_name":"Bluth","id":1,"avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/calebogden/128.jpg","first_name":"George","email":"george.bluth@reqres.in"},{"last_name":"Weaver","id":2,"avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/josephstein/128.jpg","first_name":"Janet","email":"janet.weaver@reqres.in"},{"last_name":"Wong","id":3,"avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/olegpogodaev/128.jpg","first_name":"Emma","email":"emma.wong@reqres.in"},{"last_name":"Holt","id":4,"avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/marcoramires/128.jpg","first_name":"Eve","email":"eve.holt@reqres.in"},{"last_name":"Morris","id":5,"avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/stephenmoon/128.jpg","first_name":"Charles","email":"charles.morris@reqres.in"},{"last_name":"Ramos","id":6,"avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/bigmancho/128.jpg","first_name":"Tracey","email":"tracey.ramos@reqres.in"}],"page":1,"total_pages":2}
+2020-10-03 17:33:12,979  INFO [TestNG-test=API Automation Test Case-2] GetAPITest:131 - Response per page value is: 6
+2020-10-03 17:33:12,979  INFO [TestNG-test=API Automation Test Case-2] GetAPITest:136 - Total page value is: 12
+2020-10-03 17:33:12,979  INFO [TestNG-test=API Automation Test Case-2] GetAPITest:146 - lastName is: Bluth
+2020-10-03 17:33:12,979  INFO [TestNG-test=API Automation Test Case-2] GetAPITest:147 - id is: 1
+2020-10-03 17:33:12,979  INFO [TestNG-test=API Automation Test Case-2] GetAPITest:148 - avatar is: https://s3.amazonaws.com/uifaces/faces/twitter/calebogden/128.jpg
+2020-10-03 17:33:12,979  INFO [TestNG-test=API Automation Test Case-2] GetAPITest:149 - firstName is: George
+2020-10-03 17:33:12,980  INFO [TestNG-test=API Automation Test Case-2] GetAPITest:160 - Headers Array: {Transfer-Encoding=chunked, Server=cloudflare, CF-RAY=5dc684c2f9df076e-LHR, Access-Control-Allow-Origin=*, Connection=keep-alive, Date=Sat, 03 Oct 2020 12:03:12 GMT, Via=1.1 vegur, CF-Cache-Status=HIT, Etag=W/"4c5-znzuruTKwnH4068T7ikF88YcCME", Cache-Control=max-age=14400, NEL={"report_to":"cf-nel","max_age":604800}, Report-To={"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report?lkg-colo=21&lkg-time=1601726592"}],"group":"cf-nel","max_age":604800}, Set-Cookie=__cfduid=df94aa92ec08beef556d4c3a1ebd4bdb61601726592; expires=Mon, 02-Nov-20 12:03:12 GMT; path=/; domain=.reqres.in; HttpOnly; SameSite=Lax; Secure, Vary=Accept-Encoding, Age=5498, Content-Type=application/json; charset=utf-8, X-Powered-By=Express, cf-request-id=058ff14ddf0000076ef3137200000001, Expect-CT=max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"}
+2020-10-03 17:33:13,008 DEBUG [TestNG-tests-1] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2020-10-03 17:33:13,010 DEBUG [TestNG-tests-1] cache:45 - TemplateLoader.findTemplateSource("Extent_en_IN.ftl"): Not found
+2020-10-03 17:33:13,012 DEBUG [TestNG-tests-1] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2020-10-03 17:33:13,013 DEBUG [TestNG-tests-1] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2020-10-03 17:33:13,013 DEBUG [TestNG-tests-1] cache:45 - Loading template for "Extent.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/503173434/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2020-10-03 17:33:13,303 DEBUG [TestNG-tests-1] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2020-10-03 17:33:13,303 DEBUG [TestNG-tests-1] cache:45 - TemplateLoader.findTemplateSource("Extent_en_IN.ftl"): Not found
+2020-10-03 17:33:13,304 DEBUG [TestNG-tests-1] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2020-10-03 17:33:13,305 DEBUG [TestNG-tests-1] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2020-10-03 17:33:13,305 DEBUG [TestNG-tests-1] cache:45 - Loading template for "Extent.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/503173434/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
